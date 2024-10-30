@@ -16,8 +16,14 @@ const divide = (arr, n) => {
          result.push(subArr);
 	  }
 	
-	}subArr=[i];
+	subArr=[i];
 		Sum=i;
+	}
+		 if (subArr.length > 0) {
+        result.push(subArr);
+    }
+
+    return result;
 	}
 	
 };
